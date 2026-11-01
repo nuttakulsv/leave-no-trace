@@ -1,0 +1,11 @@
+{
+  "name": "leave-no-trace",
+  "owner": { "name": "nuttakulsv" },
+  "plugins": [
+    {
+      "name": "leave-no-trace",
+      "source": "./",
+      "description": "Catches what coding agents leave behind: summary docs nobody asked for, scratch scripts, .bak files, debug prints and commented-out code."
+    }
+  ]
+}

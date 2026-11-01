@@ -1,0 +1,19 @@
+{
+  "description": "Catch summary docs, scratch scripts, backups and debug prints the agent leaves behind",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          { "type": "command", "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/litter.py\"", "timeout": 10 }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          { "type": "command", "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/litter.py\"", "timeout": 30 }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "leave-no-trace",
+  "version": "0.1.0",
+  "description": "Catches what coding agents leave behind: summary docs nobody asked for, scratch scripts, .bak files, debug prints and commented-out code.",
+  "author": { "name": "nuttakulsv" },
+  "homepage": "https://github.com/nuttakulsv/leave-no-trace",
+  "license": "MIT",
+  "keywords": ["cleanup", "code-quality", "hooks", "debug", "console-log", "git", "hygiene"]
+}
